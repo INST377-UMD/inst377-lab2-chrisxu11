@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>INST377-Lab2-contactMe</title>
+        <style>
+            body {
+                background-color: tan;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .sub input[type = "submit"] {
+                background-color: black;
+                color: white;
+                border:none;
+                margin-top: 10px;
+                margin-bottom:20px;
+            }
+            .sub input[type ="submit"]:hover {
+                background-color:white;
+                color: black;
+            }
+            
+            .form-details{
+                margin:20px auto;
+                font-size:15px;
+            }
+            .form-details label{
+                font-size:20px;
+            }
+            h1{
+                font-size:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>INST377-Lab 2- Contact Me</h1>
+        <form name="contactFrom" method="get" action="lab2thanks.html">
+        <div class = "form-details">
+        <!--User Name Details-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" required>
+            <br>
+        </div>
+        <div class = "sub">
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+    </body>
+</html>
